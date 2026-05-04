@@ -27,15 +27,10 @@ style.css"
       defer
     ></script>
   </head>
-<h1>NOVA BOGOTÁ</h1>
-    <button> <a href="Extra 1.html"> CONOCE TU HOGAR </button>
-  <button> <a href="Interacción 1.html"> JUGAR </button>
-  <button><a href="Tutorial.html">TUTORIAL
-    (Canta una canción) </button>
-     </head>
 
   <body>
-    <img src="assets/images/home.jpeg" alt="" />
-  <button> <a href="CRÉDITOS.html"> Créditos </button>
+    <h1>NOVA BOGOTÁ</h1>
+    <button><a href="index.html">HOME</button> 
+    <button><a href="index.html">HOME</button> 
   </body>
 </html>

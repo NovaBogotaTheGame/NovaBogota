@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Amoria";
+  /*   font-weight: bold; */
+  /* src: local ("Blair Caps"); */
+  src: url("assets/fonts/AMORIA.otf") format("opentype");
+}
+
+/* ------Éste estilo aplica para todos los body de todas las html del proyecto---- */
+
+body {
+  margin: 100px 0 0 0;
+  /* font-family: Wallpoet, serif;   */
+  background-image: url("assets/images/home.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; /* Center the image  */
+}
+
+header {
+  /*   background-color: black; */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  font-family: "Amoria";
+  background: rgb(219, 175, 65);
+}
+
+h1 {
+  font-family: "Amoria";
+  text-align: center;
+  font-size: 96px;
+}

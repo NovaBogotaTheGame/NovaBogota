@@ -32,10 +32,12 @@
     </header>
 
     <nav class="bottom-nav">
-      <a class="nav-button" href="Interacción 1.html">Jugar</a>
-      <a class="nav-button" href="Tutorial.html">Tutorial</a>
-      <a class="nav-button" href="Extra 1.html">Conoce tu mundo</a>
-      <a class="nav-button" href="CRÉDITOS.html">Créditos</a>
+      <div class="nav-center">
+        <button class="nav-button" onclick="window.location.href = 'Tutorial.html'">Tutorial</button>
+        <button class="nav-button play-button" onclick="window.location.href = 'Interacción 1.html'">Jugar</button>
+        <button class="nav-button" onclick="window.location.href = 'Extra 1.html'">Conoce tu mundo</button>
+      </div>
+      <button class="nav-button credits-button" onclick="window.location.href = 'CRÉDITOS.html'">Créditos</button>
     </nav>
   </body>
 </html>
